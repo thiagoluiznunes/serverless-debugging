@@ -1,0 +1,14 @@
+service: serverless-debugging
+
+provider:
+  name: aws
+  runtime: nodejs12
+  environment:
+    NODE_ENV: dev
+
+  plugins:
+    - serverless-offline
+
+functions:
+  debugging:
+    handler: index.handler
