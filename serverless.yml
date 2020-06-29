@@ -6,9 +6,6 @@ provider:
   environment:
     NODE_ENV: dev
 
-  plugins:
-    - serverless-offline
-
 functions:
   debugging:
     handler: index.handler
