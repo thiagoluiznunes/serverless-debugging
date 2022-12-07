@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/thiagoluiznunes/serverless-debugging#readme",
   "devDependencies": {
-    "serverless": "^1.74.0"
+    "serverless": "^3.25.1"
   }
 }
